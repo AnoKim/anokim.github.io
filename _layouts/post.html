@@ -14,12 +14,6 @@ script_includes:
 
 {% include toc-status.html %}
 
-{% if page.toc %}
-  <div id="toc">
-    {% include toc.html %}
-  </div>
-{% endif %}
-
 <article class="px-1" data-toc="{{ enable_toc }}">
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>
