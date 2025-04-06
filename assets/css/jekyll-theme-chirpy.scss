@@ -14,3 +14,11 @@
   background: url('/assets/img/sidebar_image.png') no-repeat center center;
   background-size: cover;
 }
+
+#toc {
+  position: fixed;
+  right: 20px;
+  top: 100px;
+  width: 300px;
+  overflow-y: auto;
+}
