@@ -1,0 +1,17 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+body {
+  background: #f0f0f0; /* 배경색 변경 */
+  /* 또는 배경 이미지 설정 */
+  background: url('/assets/img/sidebar_image.png') no-repeat center center fixed;
+  background-size: cover;
+}
