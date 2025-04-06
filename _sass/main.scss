@@ -2,19 +2,3 @@
 @forward 'components';
 @forward 'layout';
 @forward 'pages';
-
-@font-face {
-    font-family: 'D2Coding';
-    src: url('/assets/fonts/d2codingall.ttc') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-.sidebar {
-    /* 배경 그라데이션으로 우주 느낌 표현 */
-    background: radial-gradient(circle at top left, #2a2a72, #000 70%);
-    /* 혹은 우주 관련 배경 이미지를 사용 (이미지 파일은 assets/img/ 폴더에 추가) */
-    background: url('/assets/img/sidebar_image.png') no-repeat center center;
-    background-size: cover;
-    color: #fff; /* 글씨가 잘 보이도록 대비 색상 설정 */
-}
