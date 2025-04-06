@@ -8,20 +8,3 @@
 ';
 
 /* append your custom style below */
-
-#sidebar {
-  /* 새로운 배경 이미지 설정 */
-  background: url('/assets/img/sidebar_image.png') no-repeat center center;
-  background-size: cover;
-}
-
-#toc {
-  position: fixed;
-  right: 20px;
-  top: 100px;
-  width: 250px;
-  overflow-y: auto;
-  background: rgba(255, 255, 255, 0.9); /* 혹은 원하는 배경색 */
-  padding: 10px;
-  border-radius: 4px;
-}
