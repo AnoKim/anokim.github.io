@@ -8,3 +8,9 @@
 ';
 
 /* append your custom style below */
+
+#sidebar {
+  /* 새로운 배경 이미지 설정 */
+  background: url('/assets/img/sidebar_image.png') no-repeat center center;
+  background-size: cover;
+}
